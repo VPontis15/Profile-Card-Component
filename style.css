@@ -67,3 +67,26 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+  /* Colors */
+  --clr-accent: hsl(185, 75%, 39%);
+  --clr-text-heading: hsl(229, 23%, 23%);
+  --clr-text-main: hsl(227, 10%, 46%);
+  --clr-text-sub: hsl(0, 0%, 59%);
+  /* -------------------- */
+
+  /* Font Sizes */
+  --fs-main: 1.125rem;
+  ---fs-headings: 1.5rem;
+  /* ---------------------- */
+
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-semi-bold: 700;
+  /* -------------- */
+
+  /* Font Families */
+  --ff-main: "Inter", sans-serif;
+  --ff-accent: "Kumbh Sans", sans-serif;
+}
