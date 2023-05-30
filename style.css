@@ -111,8 +111,8 @@ body {
   position: absolute;
   height: 31.25rem;
   width: 31.25rem;
-  top: -70%;
-  left: -22%;
+  top: -40%;
+  left: -15%;
 }
 
 .container::after {
@@ -120,8 +120,8 @@ body {
   position: absolute;
   height: 31.25rem;
   width: 31.25rem;
-  bottom: -20%;
-  right: 15%;
+  bottom: 10%;
+  right: 10%;
 }
 
 /* z-index: -100; */
@@ -175,6 +175,7 @@ body {
 }
 
 .card__user-stats {
+  border-top: 1px dotted var(--clr-text-sub);
   display: flex;
   justify-content: space-between;
   padding-inline: 2.5em;
@@ -190,6 +191,7 @@ body {
   color: var(--clr-text-heading);
   margin-bottom: 0.25rem;
   font-weight: var(--fw-semi-bold);
+  font-family: var(--ff-accent);
 }
 
 .card__user-stat--context {
