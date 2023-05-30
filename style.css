@@ -89,25 +89,4 @@ h6 {
   /* Font Families */
   --ff-main: "Inter", sans-serif;
   --ff-accent: "Kumbh Sans", sans-serif;
-  /* ----------------------------------- */
-}
-
-.container {
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-  background-color: var(--clr-accent);
-}
-
-.card {
-  background-color: #fff;
-  max-width: 450px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.card__bg-image {
-  height: 100px;
-  max-width: 100%;
-  background: url(images/bg-pattern-card.svg);
 }
