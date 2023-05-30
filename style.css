@@ -109,8 +109,8 @@ body {
 .container::before {
   content: url(images/bg-pattern-top.svg);
   position: absolute;
-  height: 500px;
-  width: 500px;
+  height: 31.25rem;
+  width: 31.25rem;
   top: -70%;
   left: -22%;
 }
@@ -118,8 +118,8 @@ body {
 .container::after {
   content: url(images/bg-pattern-bottom.svg);
   position: absolute;
-  height: 500px;
-  width: 500px;
+  height: 31.25rem;
+  width: 31.25rem;
   bottom: -20%;
   right: 15%;
 }
@@ -128,7 +128,7 @@ body {
 
 .card {
   background-color: #fff;
-  max-width: 500px;
+  max-width: 31.25rem;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -141,8 +141,8 @@ body {
 
 .card__image {
   background-image: url(images/bg-pattern-card.svg);
-  height: 150px;
-  width: 350px;
+  height: 9.375rem;
+  width: 21.875rem;
   position: relative;
   margin-bottom: 2.25rem;
 }
@@ -194,5 +194,5 @@ body {
 
 .card__user-stat--context {
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
